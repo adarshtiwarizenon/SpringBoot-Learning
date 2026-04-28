@@ -1,0 +1,31 @@
+package com.example.security.dto;
+
+public class StudentResponseDTO {
+
+    private Long id;
+    private String name;
+    private String email;
+    private Integer age;
+    private String courseName;
+    private String courseCode;
+
+    public StudentResponseDTO() {}
+
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+
+    public Integer getAge() { return age; }
+    public void setAge(Integer age) { this.age = age; }
+
+    public String getCourseName() { return courseName; }
+    public void setCourseName(String courseName) { this.courseName = courseName; }
+
+    public String getCourseCode() { return courseCode; }
+    public void setCourseCode(String courseCode) { this.courseCode = courseCode; }
+}
